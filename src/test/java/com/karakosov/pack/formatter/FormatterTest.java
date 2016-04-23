@@ -31,8 +31,8 @@ public class FormatterTest {
             }
         }
         reads.close();
-        assertEquals(str.toString(),"while (flag) {\n" + "    try {\n" +
-                "        if ((c = read.reading()) != bbbbb'\\u7413');\n" + "    }\n" +"}");
+        assertEquals("while (flag) {\n" + "    try {\n" +
+                "        if ((c = read.reading()) != bbbbb'\\u7413');\n" + "    }\n" +"}",str.toString());
 
     }
 }

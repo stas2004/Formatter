@@ -24,8 +24,8 @@ public class ReaderTest {
             }
         }
         read.close();
-        assertEquals(str.toString(),"StringBuilder str = new StringBuilder();" +
-                "\nStringBuilder stringBuilder = new StringBuilder();\n");
+        assertEquals("StringBuilder str = new StringBuilder();" +
+                "\nStringBuilder stringBuilder = new StringBuilder();\n",str.toString());
 
     }
 

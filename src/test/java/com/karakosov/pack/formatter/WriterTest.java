@@ -2,7 +2,7 @@ package com.karakosov.pack.formatter;
 
 import org.junit.Test;
 
-import java.io.File;
+
 
 import static org.junit.Assert.*;
 
@@ -33,7 +33,7 @@ public class WriterTest {
         }
         read.close();
 
-        assertEquals(str.toString(),s);
+        assertEquals(s,str.toString());
 
     }
 
